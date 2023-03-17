@@ -1,0 +1,56 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-startup-dev-75111-authRole",
+      "UnauthRoleArn": "arn:aws:iam::870504618993:role/amplify-startup-dev-75111-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::870504618993:role/amplify-startup-dev-75111-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-startup-dev-75111-deployment",
+      "UnauthRoleName": "amplify-startup-dev-75111-unauthRole",
+      "StackName": "amplify-startup-dev-75111",
+      "StackId": "arn:aws:cloudformation:us-east-1:870504618993:stack/amplify-startup-dev-75111/6507c960-c46a-11ed-bcf6-0a6b471124cf",
+      "AmplifyAppId": "d29poywl6iwgee"
+    }
+  },
+  "auth": {
+    "startup59990e19": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false,
+      "frontendAuthConfig": {
+        "socialProviders": [],
+        "usernameAttributes": [],
+        "signupAttributes": [
+          "EMAIL"
+        ],
+        "passwordProtectionSettings": {
+          "passwordPolicyMinLength": 8,
+          "passwordPolicyCharacters": []
+        },
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [
+          "SMS"
+        ],
+        "verificationMechanisms": [
+          "EMAIL"
+        ]
+      },
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-startup-dev-75111-deployment/amplify-cfn-templates/auth/startup59990e19-cloudformation-template.json",
+        "logicalId": "authstartup59990e19"
+      },
+      "lastPushTimeStamp": "2023-03-17T02:32:54.204Z",
+      "output": {
+        "UserPoolId": "us-east-1_EfJtxJ8Jx",
+        "AppClientIDWeb": "h0ut2i0eh3nuvdsddldudcb2g",
+        "AppClientID": "1nr0qohuc492320u8b2277no4b",
+        "IdentityPoolId": "us-east-1:2a0d9bc8-7c29-4b7b-9a32-2b5f01a7528f",
+        "UserPoolArn": "arn:aws:cognito-idp:us-east-1:870504618993:userpool/us-east-1_EfJtxJ8Jx",
+        "IdentityPoolName": "startup59990e19_identitypool_59990e19__dev",
+        "UserPoolName": "startup59990e19_userpool_59990e19"
+      },
+      "lastPushDirHash": "WbmM1mnw905d4ULK6lZDpuP63so="
+    }
+  }
+}
